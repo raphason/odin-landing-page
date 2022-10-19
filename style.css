@@ -89,6 +89,31 @@ body {
     font-weight: 700;
 }
 
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+}
+
+.action-box {
+    display: flex;
+    align-content: space-between;
+    gap: 64px;
+    background-color: firebrick;
+    border: none;
+    border-radius: 8px;
+    padding: 32px 64px;
+    font-size: 14px;
+    color:#c4c4d8;
+}
+
+.become-supporter-title {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e6e6fa;
+}
+
 button {
     color: #e6e6fa;
     font-weight: bold;
