@@ -1,7 +1,66 @@
 body {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
 
     display: flex;
     flex-direction: column;
-    justify-content: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.top-section {
+    background-color: firebrick;
+    color: #e6e6fa;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 16px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-header {
+    display: flex;
+    gap: 16px;
+}
+
+.top-section-main {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    padding: 64px;
+    text-align: center;
+}
+
+.top-main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    list-style-type: none;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #c4c4d8;
+}
+
+a:hover {
+    background-color: crimson;
+}
+
+h3 {
+    font-weight: 900;
 }
