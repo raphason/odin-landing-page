@@ -79,7 +79,7 @@ body {
 }
 
 .quote-text {
-    color: #ad1d1d;
+    color: #9c0c0c;
     font-style: italic;
     font-size: 32px;
 }
@@ -92,7 +92,7 @@ body {
 .call-to-action-section {
     display: flex;
     justify-content: center;
-    padding: 48px;
+    padding: 96px;
 }
 
 .action-box {
@@ -112,6 +112,14 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: #e6e6fa;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    background-color: #c4c4d8;
 }
 
 button {
